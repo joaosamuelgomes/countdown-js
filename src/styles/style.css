@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap");
+
+body {
+    font-family: Cinzel;
+    background-color: gray;
+    overflow-x: hidden;
+}
+.cabecalho {
+    text-align: center;
+    color: white;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 500px;
+}
+.contadores {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: 0 2rem;
+    text-align: center;
+    color: white;
+}
+
+.contadores p {
+    font-size: 4rem;
+}
+
+.rodape {
+    text-align: center;
+    color: white;
+}
